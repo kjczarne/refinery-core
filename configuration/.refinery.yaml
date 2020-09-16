@@ -1,0 +1,15 @@
+refinery:
+  database:
+    databaseServer: 'http://localhost:5984/'
+    databaseName: 'lorem'
+    user: admin
+    password: password
+  files:
+    loc: './localFiles'
+  # customEngines:
+  #   - './tests/res/fakeEngine.js'
+# This section configures which iBooks databases
+# will be consumed
+ibooks:
+  annotationsDb: "./tests/res/ibooks/ibooks_db_mock.sqlite"
+  libraryDb: "./tests/res/ibooks/ibooks_library_mock.sqlite"
