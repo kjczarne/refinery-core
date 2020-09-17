@@ -20,6 +20,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@types/better-sqlite3": "^5.4.0",
+    "@types/node": "^14.11.1",
     "@types/pouchdb": "^6.4.0",
     "@types/sha1": "^1.1.2",
     "@types/winston": "^2.4.4",

@@ -15,8 +15,6 @@ Object.defineProperty(exports, "Record", { enumerable: true, get: function () { 
 __exportStar(require("./built/src/interfaces"), exports);
 __exportStar(require("./built/src/utilities/sql"), exports);
 __exportStar(require("./built/src/utilities/utils"), exports);
-var database_1 = require("./built/src/database");
-Object.defineProperty(exports, "RefineryDatabaseWrapper", { enumerable: true, get: function () { return database_1.RefineryDatabaseWrapper; } });
 var configProvider_1 = require("./built/src/configProvider");
 Object.defineProperty(exports, "config", { enumerable: true, get: function () { return configProvider_1.config; } });
 Object.defineProperty(exports, "DEFAULT_CONFIG_PATH", { enumerable: true, get: function () { return configProvider_1.DEFAULT_CONFIG_PATH; } });
