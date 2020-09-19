@@ -1,6 +1,6 @@
 {
   "name": "refinery-core",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Core elements of Refinery Framework",
   "main": "index.js",
   "scripts": {
